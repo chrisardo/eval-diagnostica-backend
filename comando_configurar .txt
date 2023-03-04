@@ -1,0 +1,20 @@
+npm init -y
+npm i express
+npm i typescript -D
+npx tsc --init
+node dist/index.js
+npm i ts-node-dev -D
+npm run dev ->ejecutar el services
+npm i express morgan cors
+npm i @types/express -D
+npm i @types/morgan @types/cors -D
+npm install typeorm --save
+npm install typeorm --legacy-peer-deps
+npm install reflect-metadata --save
+npm install @types/node --save-dev
+npm install mysql --save
+npm install pg --save
+Username: admin
+contr: #2978A3@ED163B*
+
+//mysqlport-> 3306
