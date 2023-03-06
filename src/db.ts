@@ -5,6 +5,14 @@ import { Asignatura } from "./entities/asignaturas";
 import { Competencias } from "./entities/competencias";
 import { Grado } from "./entities/grado";
 import { Institucion_educativa } from "./entities/institucion_educativa";
+import { Administrador } from "./entities/adm";
+import { Nivel_logro } from "./entities/nivel.logro";
+import { Upload } from "./entities/upload";
+import { Resumen_evaluacion } from "./entities/resumen_evaluacion";
+
+
+
+
 
 
 export const AppDataSource = new DataSource({//Conexion a la BD
@@ -16,5 +24,5 @@ export const AppDataSource = new DataSource({//Conexion a la BD
   database: "evalu_diagnostica",
   synchronize: true,
   logging: true,//Para ir viendo los mensajes
-  entities: [User, Rol, Asignatura, Competencias, Grado, Institucion_educativa],//Genera la tabla USER typeorm de la BD
+  entities: [User, Rol, Asignatura, Competencias, Grado, Institucion_educativa, Administrador, Nivel_logro, Upload, Resumen_evaluacion ],//Genera la tabla USER typeorm de la BD
 });
